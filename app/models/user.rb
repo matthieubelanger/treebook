@@ -10,18 +10,6 @@ class User < ActiveRecord::Base
                   :first_name, :last_name, :profile_name
 
 
-  validates :first_name, presence: true
-
-  validates :last_name, presence: true
-
-  validates :last_name, presence: true,
-                        uniqueness: true
-                        format: {
-                          with: /a-zA-Z0-9_-/
-                          message: "Must be formated correctly"
-                        }
-
-
   has_many :statuses
 
   
