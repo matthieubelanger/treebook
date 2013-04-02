@@ -3,3 +3,9 @@ matthieu:
   last_name: "Belanger"
   email: "belangermatt@poop.com"
   profile_name: "mattbelanger"
+
+jim:
+  first_name: "jim"
+  last_name: "Hoskins"
+  email: "jim@poop.com"
+  profile_name: "jimmyh"
