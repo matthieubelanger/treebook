@@ -32,7 +32,7 @@ class User < ActiveRecord::Base
     downcased_email = stripped_email.downcase 
     hash = Digest::MD5.hexdigest(downcased_email)
 
-    "http://gravatar.com/avater/#{hash}"
+    "http://gravatar.com/avatar/#{hash}"
   end
 
 end
